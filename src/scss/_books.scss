@@ -1,0 +1,20 @@
+.books {
+  margin: 20px 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.books__item {
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+.books__item > * {
+  margin-top: 15px;
+}
+
+.books__item > button {
+  @include btn;
+}

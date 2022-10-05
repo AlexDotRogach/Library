@@ -1,0 +1,27 @@
+header {
+  height: 60px;
+  background-color: blue;
+
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-btn {
+  display: flex;
+}
+
+.control-btn > * {
+  cursor: pointer;
+  background: rgba(42, 42, 42, 0.5);
+  @include btn;
+}
+
+.add {
+  margin-right: 15px;
+}
+
+.hide {
+  margin-left: 30px;
+}

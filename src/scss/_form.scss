@@ -1,0 +1,31 @@
+form {
+  margin-left: 20px;
+  display: none;
+  button {
+    margin-top: 10px;
+    @include btn;
+  }
+}
+
+.values {
+  display: flex;
+  flex-direction: column;
+}
+
+.values > * {
+  display: grid;
+  grid-template-columns: 60px 150px;
+  grid-column-gap: 15px;
+  margin-top: 10px;
+}
+
+.values input {
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+// toggle
+
+.show {
+  display: block;
+}

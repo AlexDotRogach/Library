@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./style-min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="control-btn">
+        <div class="add" control="work">add</div>
+        <div class="update" control="work">update</div>
+        <div class="hide">hide form</div>
+      </div>
+    </header>
+
+    <section class="container">
+      <div class="control">
+        <form action="" class="form-add hide" id="add">
+          <div class="values">
+            <div class="values__item">
+              <span>name:</span><input type="text" class="name" name="name" />
+            </div>
+            <div class="values__item">
+              <span>rating:</span
+              ><input type="text" class="rating" name="rating" />
+            </div>
+            <div class="values__item">
+              <span>describe:</span
+              ><textarea type="text" class="desc" name="describe"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="create">create</button>
+        </form>
+
+        <form action="" class="form-update hide" id="update">
+          <div class="values">
+            <div class="values__item">
+              <span>name:</span><input type="text" class="name" name="name" />
+            </div>
+            <div class="values__item">
+              <span>rating:</span
+              ><input type="text" class="rating" name="rating" />
+            </div>
+            <div class="values__item">
+              <span>describe:</span
+              ><textarea type="text" class="desc" name="describe"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="update">update</button>
+        </form>
+      </div>
+      <div class="books"></div>
+    </section>
+  </body>
+  <script src="./bundle.js"></script>
+</html>
